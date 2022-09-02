@@ -30,9 +30,7 @@ happ = heroku_conn.apps()['adholokham10']
 
 
 start_img = [
-    "https://telegra.ph/file/bf15b6794e857518655d9.jpg",
-    "https://telegra.ph/file/5b0406dd7b743de513c46.jpg",
-    "https://telegra.ph/file/5c91495538b0c78af8afe.jpg"]
+    "https://telegra.ph/file/f20d96bf6c083678a3de6.jpg"]
 
 cyp = Client(
     'cyp_bot',
@@ -46,13 +44,13 @@ print("bot starting")
 @cyp.on_message(filters.command(['start']) & filters.private)
 def start(client, message):
     message.reply_photo(photo=random.choice(start_img),
-                        caption= "💣 അധോലോകം💣",
+                        caption= "King_Network7",
                         reply_markup=InlineKeyboardMarkup(
-                                [[InlineKeyboardButton("Join Now",url="https://t.me/Adholokam_Official")]])
+                                [[InlineKeyboardButton("Join Now",url="https://t.me/King_Network7")]])
                         )
 
 
-@cyp.on_message(filters.photo | filters.video | filters.document)
+@cyp.on_message(filters.photo | filters.video | filters.document | filters.link)
 def media_files(client, message):
     chat_id = message.chat.id
     video_id = message.message_id
