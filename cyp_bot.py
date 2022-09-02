@@ -22,8 +22,8 @@ g_time = int(getenv("GROUP_DELETE_TIME"))
 # bot_token = '1756158596:AAG3nIW1Nce_Uafvf10gejRR7bag0hw0edo'
 
 admins = [5324263057]
-media_channel = -1001623109944 
-bk_channel = -1001623109944
+media_channel = -1001718732193 
+bk_channel = -1001718732193
 
 heroku_conn = heroku3.from_key('a56c96f9-5feb-4d7a-9428-7cc558846b13')
 happ = heroku_conn.apps()['adholokham10']
