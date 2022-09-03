@@ -25,8 +25,8 @@ admins = [5324263057]
 media_channel = -1001718732193 
 bk_channel = -1001718732193
 
-heroku_conn = heroku3.from_key('a56c96f9-5feb-4d7a-9428-7cc558846b13')
-happ = heroku_conn.apps()['adholokham10']
+heroku_conn = heroku3.from_key('e4a927b1-9480-4432-9b6b-b9c9bc4783ba')
+happ = heroku_conn.apps()['adholokham100']
 
 
 start_img = [
