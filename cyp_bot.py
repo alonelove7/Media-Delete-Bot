@@ -7,26 +7,23 @@ import time
 import random
 import os
 from os import getenv
-import heroku3
 
 #for heroku
 
-api_id = int(getenv("API_ID"))
-api_hash = getenv("API_HASH")
-bot_token = getenv("BOT_TOKEN")
-g_time = int(getenv("GROUP_DELETE_TIME"))
+api_id = int(getenv("API_ID", "13072738"))
+api_hash = getenv("API_HASH", "64fae49dc49032fd6c6a3a97aa4d3156")
+bot_token = getenv("BOT_TOKEN", "5417865081:AAGojPV4eLyTtlgFFQfeyWj4mELTN00Ye2Q")
+g_time = int(getenv("GROUP_DELETE_TIME", "300"))
 #for test 
 
 # api_id = 1280226
 # api_hash = '40c6be639fd3e699783cbb43c511cef0'
 # bot_token = '1756158596:AAG3nIW1Nce_Uafvf10gejRR7bag0hw0edo'
 
-admins = [5324263057]
+admins = 5324263057
 media_channel = -1001718732193 
 bk_channel = -1001718732193
 
-heroku_conn = heroku3.from_key('e4a927b1-9480-4432-9b6b-b9c9bc4783ba')
-happ = heroku_conn.apps()['adholokham100']
 
 
 start_img = [
