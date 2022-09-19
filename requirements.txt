@@ -1,3 +1,4 @@
 TgCrypto
 pyrogram==1.4.16
 heroku3
+redis
