@@ -1,1 +1,1 @@
-python3 cyp_bot.py
+python cyp_bot.py
