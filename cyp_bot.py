@@ -12,7 +12,7 @@ from os import getenv
 
 api_id = int(getenv("API_ID", "13072738"))
 api_hash = getenv("API_HASH", "64fae49dc49032fd6c6a3a97aa4d3156")
-bot_token = getenv("BOT_TOKEN", "5417865081:AAGnnb06qgzA4GK1U5F8RCKez0duGKIbEQw")
+bot_token = getenv("BOT_TOKEN", "5417865081:AAFLIEqaIal_wttBzUqFyRfUofiEeJbGGh0")
 g_time = int(getenv("GROUP_DELETE_TIME", "300"))
 #for test 
 
