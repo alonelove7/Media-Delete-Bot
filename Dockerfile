@@ -1,5 +1,9 @@
-FROM python:3.9.2-slim-buster
+FROM python:3.10.6
 
-RUN pip3 install -r requirements.txt
+WORKDIR /usr/src/app
+RUN chmod 777 /usr/src/app
+
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 CMD ["bash","start.sh"]
