@@ -1,1 +1,9 @@
-CMD ["bash", "start.sh"]
+FROM python
+
+COPY . /app
+
+WORKDIR /app
+
+RUN pip3 install -r requirements.txt
+
+CMD sh start.sh
